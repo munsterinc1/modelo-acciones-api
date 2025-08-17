@@ -100,8 +100,8 @@ python clients.py
 
 Ejemplo de salida:
 
-🔹 Petición 1: {'Open': 180, 'High': 185, 'Low': 175, 'Close': 182, 'Volume': 1000000}
-🔸 Predicción: {'prediccion_precio_de_cierre_mañana': 181.76}
+- Petición 1: {'Open': 180, 'High': 185, 'Low': 175, 'Close': 182, 'Volume': 1000000}
+- Predicción: {'prediccion_precio_de_cierre_mañana': 181.76}
 
 ## Autor
 
