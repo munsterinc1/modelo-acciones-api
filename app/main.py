@@ -9,7 +9,7 @@ model = load("app/model.joblib")
 
 @app.get("/")
 def root():
-    return {"message": "API para predecir precio de cierre de acciones"}
+    return {"Mensaje": "API para predecir precio de cierre de acciones"}
 
 @app.post("/predict", response_model=Prediction)
 def predict(data: StockData):
