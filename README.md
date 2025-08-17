@@ -14,6 +14,7 @@ El modelo está entrenado con un `RandomForestRegressor` usando los atributos:
 
 ## Estructura del proyecto
 
+```text
 modelo-acciones-api/
 ├── app/
 │   ├── main.py        # API FastAPI
@@ -24,7 +25,7 @@ modelo-acciones-api/
 ├── train_model.py     # Script de entrenamiento
 ├── requirements.txt   # Dependencias
 └── README.md          # Documentación
-
+```
 
 ## Despliegue en Render
 
@@ -68,7 +69,7 @@ La API estará disponible en:
 
 ## Uso de la API
 
-Endpoint principal
+- Endpoint principal
 
 https://modelo-acciones-api.onrender.com/docs
 
@@ -105,7 +106,7 @@ Ejemplo de salida:
 ## Autor
 
 Proyecto desarrollado como parte de un trabajo académico de Magíster de Ciencia de Datos UDD.
-Repositorio: https://github.com/munsterinc1/modelo-acciones-api
-Servicio web desplegado en render: https://modelo-acciones-api.onrender.com
+- Repositorio: https://github.com/munsterinc1/modelo-acciones-api
+- Servicio web desplegado en render: https://modelo-acciones-api.onrender.com
 
 ---
