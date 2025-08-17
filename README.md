@@ -16,10 +16,10 @@ El modelo está entrenado con un `RandomForestRegressor` usando los atributos:
 
 La API está disponible públicamente en Render:
 
-🔗 [https://modelo-acciones-api.onrender.com](https://TU_API.onrender.com)
+- [https://modelo-acciones-api.onrender.com](https://modelo-acciones-api.onrender.com)
 
 Documentación interactiva (Swagger):  
-🔗 [https://modelo-acciones-api.onrender.com/docs](https://TU_API.onrender.com/docs)
+- [https://modelo-acciones-api.onrender.com/docs](https://modelo-acciones-api.onrender.com/docs)
 
 ---
 
@@ -52,7 +52,7 @@ La API estará disponible en:
 - http://127.0.0.1:8000
 - Documentación Swagger: http://127.0.0.1:8000/docs
 
-### 📡 Uso de la API
+### Uso de la API
 
 Endpoint principal
 POST /predict
@@ -71,7 +71,7 @@ POST /predict
   "prediccion_precio_de_cierre_mañana": 181.76
 }
 
-### 🧪 Cliente de pruebas
+### Cliente de pruebas
 
 Se incluye un script clients.py que realiza 3 peticiones a la API.
 
@@ -84,7 +84,7 @@ Ejemplo de salida:
 🔹 Petición 1: {'Open': 180, 'High': 185, 'Low': 175, 'Close': 182, 'Volume': 1000000}
 🔸 Predicción: {'prediccion_precio_de_cierre_mañana': 181.76}
 
-### 📦 Estructura del proyecto
+### Estructura del proyecto
 modelo-acciones-api/
 ├── app/
 │   ├── main.py        # API FastAPI
@@ -96,9 +96,10 @@ modelo-acciones-api/
 ├── requirements.txt   # Dependencias
 └── README.md          # Documentación
 
-### 👨‍💻 Autor
+### Autor
 
 Proyecto desarrollado como parte de un trabajo académico de Magíster de Ciencia de Datos UDD.
 Repositorio: https://github.com/munsterinc1/modelo-acciones-api
+Servicio web desplegado: https://modelo-acciones-api.onrender.com
 
 ---
